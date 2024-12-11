@@ -1,4 +1,6 @@
-//prog 1: with the prime numbers. For all of these codes i wrote them firstly in python and then i converted it to C language 
+//prog 1: with the prime numbers. 
+//For all of these codes i wrote them firstly in python and then i converted it to C language 
+
 #include <stdio.h>
 
 int main() {
