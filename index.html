@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studies | Exams timetable</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body data-page="studies">
+  <div class="page">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">mano.</div>
+        <div class="logo-sub">VILNIUSTECH</div>
+      </div>
+      <nav class="menu">
+        <a class="menu-item" href="dashboard.html">Dashboard</a>
+        <a class="menu-item active" href="index.html">Studies</a>
+        <a class="menu-item">This semester</a>
+        <a class="menu-item">Study programme</a>
+        <a class="menu-item">My results</a>
+        <a class="menu-item">Thesis subject</a>
+        <a class="menu-item highlight" href="index.html">Exams timetable</a>
+        <a class="menu-item">All programs</a>
+        <a class="menu-item">Internships</a>
+        <a class="menu-item">Auditorium Occupancy</a>
+        <a class="menu-item">Lecture schedule</a>
+        <a class="menu-item">Lecturer's consultation</a>
+        <a class="menu-item">Study programme report</a>
+      </nav>
+      <div class="menu-section">
+        <a class="menu-item">Study procedure</a>
+        <a class="menu-item">IT services</a>
+        <a class="menu-item">Library</a>
+        <a class="menu-item">My career</a>
+        <a class="menu-item">International opportunities</a>
+        <a class="menu-item">Life in VILNIUS TECH</a>
+        <a class="menu-item">My documents</a>
+        <a class="menu-item">Surveys</a>
+        <a class="menu-item">Safety at VILNIUS TECH</a>
+      </div>
+    </aside>
+
+    <div class="content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="hamburger">☰</div>
+          <div class="date-block">
+            <div class="date">2026-01-23</div>
+            <div class="week">week 1 (lecture 4)</div>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <span class="icon">⌂</span>
+          <span class="icon">✉</span>
+          <span class="icon">🔔</span>
+          <div class="profile">
+            <span class="avatar">S</span>
+            <span>Sharon Daniela Piaskute</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="main">
+        <div class="main-header">
+          <h1>Studies</h1>
+          <div class="breadcrumbs">Dashboard &gt; Studies &gt; Exams timetable</div>
+        </div>
+
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="student" role="tab">Student exam schedules</button>
+          <button class="tab" data-tab="lecturer" role="tab">Lecturers exam schedules</button>
+        </div>
+
+        <div class="filters">
+          <label>
+            <span>Group</span>
+            <div class="input" contenteditable="true">BMfu-25</div>
+          </label>
+          <label>
+            <span>Semester</span>
+            <div class="input" contenteditable="true">1</div>
+          </label>
+        </div>
+
+        <div class="table-card tab-panel" data-panel="student">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Subject</th>
+                <th rowspan="2">Type</th>
+                <th rowspan="2">EC*</th>
+                <th rowspan="2">Credits</th>
+                <th rowspan="2">Lecturer</th>
+                <th colspan="3">Exam</th>
+                <th colspan="3">Consultation</th>
+              </tr>
+              <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Classroom</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Classroom</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VVTEB16112 Law</td>
+                <td>E1</td>
+                <td>-</td>
+                <td>3</td>
+                <td>Raimonda Bublienė</td>
+                <td>2025-12-08</td>
+                <td>14:30</td>
+                <td>P2 154</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>MEBIB17024 Introduction to Speciality</td>
+                <td>E1</td>
+                <td>-</td>
+                <td>3</td>
+                <td>Jurgita Žiženė</td>
+                <td>2025-12-10</td>
+                <td>12:10</td>
+                <td>P2 511</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>FMCHB16109 Chemistry</td>
+                <td>E</td>
+                <td>-</td>
+                <td>6</td>
+                <td>Ramunė Albrektienė-Plačakė</td>
+                <td>2026-01-07</td>
+                <td>10:00</td>
+                <td>P2 154</td>
+                <td>2026-01-06</td>
+                <td>10:00</td>
+                <td>P2 154</td>
+              </tr>
+              <tr>
+                <td>STGSB17036 Human's Safety and Environmental Protection</td>
+                <td>E</td>
+                <td>-</td>
+                <td>3</td>
+                <td>Aušra Stankuvienė</td>
+                <td>2026-01-13</td>
+                <td>12:00</td>
+                <td>P2 154</td>
+                <td>2026-01-12</td>
+                <td>15:00</td>
+                <td>P2 157</td>
+              </tr>
+              <tr>
+                <td>FMFIB16128 Physics 1</td>
+                <td>E</td>
+                <td>-</td>
+                <td>6</td>
+                <td>Artūras Jukna</td>
+                <td>2026-01-16</td>
+                <td>12:00</td>
+                <td>P2 526</td>
+                <td>2026-01-15</td>
+                <td>10:00</td>
+                <td>P2 154</td>
+              </tr>
+              <tr>
+                <td>FMMMB16111 Mathematics 1</td>
+                <td>E</td>
+                <td>-</td>
+                <td>6</td>
+                <td>Julija Karaliūnaitė</td>
+                <td>2026-01-20</td>
+                <td>10:00</td>
+                <td>P2 157</td>
+                <td>2026-01-19</td>
+                <td>08:30</td>
+                <td>P2 157</td>
+              </tr>
+              <tr>
+                <td>MERSB22101 Introduction to Engineering Programming</td>
+                <td>E</td>
+                <td>-</td>
+                <td>3</td>
+                <td>Aurimas Čerskus</td>
+                <td>2026-01-23</td>
+                <td>12:00</td>
+                <td>P2 157</td>
+                <td>2026-01-22</td>
+                <td>12:00</td>
+                <td>P2 157</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="note">* Elective course. Course evaluation is applied only to the one selected</p>
+        </div>
+
+        <div class="table-card tab-panel" data-panel="lecturer" hidden>
+          <div class="empty-state">
+            <h3>Lecturer schedules</h3>
+            <p>Select a lecturer group to view exam and consultation slots.</p>
+            <button class="primary">Load lecturer schedule</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© VILNIUS TECH ITSC 2026</span>
+        <span>Faculty of Mechanics</span>
+      </footer>
+
+      <button class="help">Need help? (dormitories, studies and other issues)</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
